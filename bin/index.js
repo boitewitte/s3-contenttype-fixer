@@ -24,6 +24,7 @@ if (validCommand) {
   executor.on('error', (type, err) => {
     console.log(chalk.bold.red(type))
     console.log(chalk.red(err))
+    console.timeEnd('ContentTypeFix')
     process.exit(1)
   })
   executor.on('connected', (opts) => {
@@ -46,8 +47,10 @@ if (validCommand) {
   executor.on('end', (data) => {
     console.log(chalk.green('DONE DEAL'))
     console.log(data)
+    console.timeEnd('ContentTypeFix')
     process.exit(0)
   })
+  console.time('ContentTypeFix')
   executor.connect()
 } else {
   console.log(chalk.bold.red('initiationFailed'))
