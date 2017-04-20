@@ -6,6 +6,10 @@
   "bin": {
     "s3-contenttype-fixer": "bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boitewitte/s3-contenttype-fixer"
+  },
   "dependencies": {
     "aws-sdk": "^2.43.0",
     "chalk": "^1.1.3",
