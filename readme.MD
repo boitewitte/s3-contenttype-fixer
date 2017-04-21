@@ -5,7 +5,7 @@ This CLI script fixes the content types of the files in your S3 bucket.
 ## Installation
 
 ```sh
-npm i -g s3-content-type-fixer
+npm i -g s3-contenttype-fixer
 ```
 
 ## Usage
