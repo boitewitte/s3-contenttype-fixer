@@ -1,6 +1,6 @@
 {
   "name": "s3-contenttype-fixer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fixing content types within S3 bucket",
   "main": "lib/index.js",
   "bin": {
